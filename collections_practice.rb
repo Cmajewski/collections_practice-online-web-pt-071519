@@ -32,5 +32,5 @@ keshafied
 end
 
 def find_a(array)
-  array.start_with?.select("a")
+  array.select{|x|x.start_with?("a")}
 end
