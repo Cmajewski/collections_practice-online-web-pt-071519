@@ -30,3 +30,7 @@ keshafied<<letter[3]=("$")
 end
 keshafied
 end
+
+def find_a(array)
+  array.start_with?("a")
+end
