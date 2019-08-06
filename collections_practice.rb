@@ -41,9 +41,10 @@ end
 
 def add_s(array)
   each_with_index.collect do |element,index|
-    if element[2]=element
-    end
-    else
+    if index==1
+      element
+      else
       element<<"s"
   end
+end
 end
