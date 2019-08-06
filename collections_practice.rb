@@ -25,7 +25,7 @@ end
 
 def kesha_maker(array)
 keshafied=[]
-array.each.split do|letter|
+array.split.each do|letter|
 keshafied<<letter[3]=("$")
 end
 keshafied
