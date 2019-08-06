@@ -26,4 +26,5 @@ end
 def kesha_maker(array)
 keshafied=[]
 array.each.split {|letter|keshafied<<letter[2].replace($).join("")}
+keshafied
 end
