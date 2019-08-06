@@ -38,4 +38,3 @@ end
 def sum_array(array)
   array.inject {|sum,value| sum+value}
 end
-  
